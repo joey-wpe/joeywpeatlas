@@ -10,7 +10,7 @@ const themes = {
   },
   red: {
     '--color-black': '#000',
-    '--color-primary': '#660000',
+    '--color-primary': '##b20e27',
     '--color-secondary': '#B50505',
     '--color-tertiary': '#CCCCCC',
     '--color-white': '#FFFFFF',
@@ -25,7 +25,7 @@ const themes = {
 };
 
 export default function ThemeStyles() {
-  const themeColor = appConfig?.themeColor ?? 'blue';
+  const themeColor = appConfig?.themeColor ?? 'red';
 
   return (
     // eslint-disable-next-line react/no-unknown-property

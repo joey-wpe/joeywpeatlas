@@ -34,7 +34,7 @@ export default function Component() {
   const footerMenu = data?.footerMenuItems?.nodes ?? [];
 
   const mainBanner = {
-    sourceUrl: '/static/banner.jpeg',
+    sourceUrl: '/static/banner.jpg',
     mediaDetails: { width: 1200, height: 600 },
     altText: 'Portfolio Banner',
   };
@@ -53,11 +53,10 @@ export default function Component() {
         <div className="container">
           <section className="hero text-center">
             <Heading className={styles.heading} level="h1">
-              Welcome to your Blueprint
+              Welcome to Rutgers
             </Heading>
             <p className={styles.description}>
-              Achieve unprecedented performance with modern frameworks and the
-              world&apos;s #1 open source CMS in one powerful headless platform.{' '}
+            Chart your path at one of the nation’s preeminent public universities{' '}
             </p>
             <div className={styles.actions}>
               <Button styleType="secondary" href="/contact-us">
@@ -77,8 +76,7 @@ export default function Component() {
               )}
             >
               <span>
-                Learn about Core Web Vitals and how Atlas can help you reach
-                your most demanding speed and user experience requirements.
+              At Rutgers University–New Brunswick, the impact of our scholarship, research, and community service is our enduring legacy.
               </span>
             </CTA>
           </section>
@@ -97,8 +95,7 @@ export default function Component() {
               )}
             >
               <span>
-                Learn about Core Web Vitals and how Atlas can help you reach
-                your most demanding speed and user experience requirements.
+              At Rutgers University–New Brunswick, the impact of our scholarship, research, and community service is our enduring legacy.
               </span>
             </CTA>
           </section>

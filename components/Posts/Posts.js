@@ -32,8 +32,8 @@ function Posts({ posts, intro, id }) {
 
           if (!image && appConfig.archiveDisplayFeaturedImage) {
             image = {
-              sourceUrl: '/static/banner.jpeg',
-              altText: 'Downtown Austin, Texas skyline',
+              sourceUrl: '/static/banner.jpg',
+              altText: 'Rutgers',
             };
           }
 
