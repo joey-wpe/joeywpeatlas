@@ -3,14 +3,14 @@ import appConfig from '../../app.config';
 const themes = {
   blue: {
     '--color-black': '#000',
-    '--color-primary': '#000066',
+    '--color-primary': '#b20e27',
     '--color-secondary': '#0969da',
     '--color-tertiary': '#CCCCCC',
     '--color-white': '#FFFFFF',
   },
   red: {
     '--color-black': '#000',
-    '--color-primary': '##b20e27',
+    '--color-primary': '#b20e27',
     '--color-secondary': '#B50505',
     '--color-tertiary': '#CCCCCC',
     '--color-white': '#FFFFFF',
