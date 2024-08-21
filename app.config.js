@@ -39,12 +39,11 @@ const appConfig = {
    * @type {[key: 'twitterUrl' | 'facebookUrl' | 'instagramUrl' | 'youtubeUrl' | 'githubUrl' | 'linkedinUrl']: string}
    */
   socialLinks: {
-    twitterUrl: 'https://twitter.com/wpengine',
-    facebookUrl: 'https://www.facebook.com/wpengine',
-    instagramUrl: 'https://www.instagram.com/wpengine/',
-    youtubeUrl: 'https://youtube.com/wpengine',
-    githubUrl: 'https://github.com/wpengine',
-    linkedinUrl: 'https://www.linkedin.com/company/wpengine',
+    twitterUrl: 'https://twitter.com/RutgersU',
+    facebookUrl: 'https://www.facebook.com/RutgersU',
+    instagramUrl: 'https://www.instagram.com/rutgersu/',
+    youtubeUrl: 'https://www.youtube.com/user/RutgersUniversity',
+    linkedinUrl: 'https://www.linkedin.com/school/rutgers-university',
   },
 };
 
