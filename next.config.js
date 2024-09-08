@@ -11,10 +11,10 @@ const nextConfig = {
   images: {
     domains: [getWpHostname()],
   },
-  i18n: {
-    locales: ['en'],
-    defaultLocale: 'en',
-  },
+//  i18n: {
+//    locales: ['en'],
+   // defaultLocale: 'en',
+ // },
 };
 
 // Combine the configurations using both `withFaust` and `withAtlasConfig`
